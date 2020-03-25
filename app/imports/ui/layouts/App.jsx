@@ -13,6 +13,7 @@ import AddProject from '../pages/AddProject';
 import Projects from '../pages/Projects';
 import Filter from '../pages/Filter';
 import Interests from '../pages/Interests';
+import Lucky from '../pages/Lucky';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
@@ -32,6 +33,7 @@ class App extends React.Component {
               <Route path="/profiles" component={Profiles}/>
               <Route path="/projects" component={Projects}/>
               <Route path="/interests" component={Interests}/>
+              <Route path="/lucky" component={Lucky}/>
               <ProtectedRoute path="/addproject" component={AddProject}/>
               <ProtectedRoute path="/filter" component={Filter}/>
               <Route path="/signin" component={Signin}/>
